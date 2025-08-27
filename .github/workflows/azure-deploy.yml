@@ -66,5 +66,5 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'expandev-pool-3'
+          app-name: 'expandev-03'
           package: .
