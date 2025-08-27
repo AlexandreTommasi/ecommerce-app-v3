@@ -17,4 +17,3 @@ BEGIN
     
     PRINT 'Produtos iniciais inseridos para Pool 3';
 END
-GO

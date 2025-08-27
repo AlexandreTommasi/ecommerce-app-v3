@@ -12,6 +12,7 @@ BEGIN
     );
     PRINT 'Tabela produtos criada para Pool 3';
 END
+
 GO
 
 -- Criar índices para performance
@@ -20,4 +21,3 @@ IF NOT EXISTS (SELECT * FROM sys.indexes WHERE name = 'idx_produtos_nome')
 
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE name = 'idx_produtos_categoria')
     CREATE INDEX idx_produtos_categoria ON produtos(categoria);
-GO
